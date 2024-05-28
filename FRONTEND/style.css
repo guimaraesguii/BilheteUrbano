@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #0A090C;
+}
+
+.titulo h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #07393C;
+    padding: 35px;
+}
+.sobre h1 {
+    color: aliceblue;
+    background: #07393C;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.nav {
+    background-color: #2C666E;
+    color: aliceblue;
+    height: 70px;
+    text-align: center;
+}
+
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.sobre {
+    border-radius: 8px;
+    background-color: #2C666E;
+    border: 2px solid #2C666E;
+    width: 30%;
+    text-align: center;
+    padding: 60px;
+    margin: 50px;
+}
+
+.sobre p, h2,text,h3{
+    color:rgb(255, 255, 255);
+}
+
+button{
+    color: white;
+    background-color: #69bed3;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+main {
+    display: flex;
+    padding: 50px 10px;
+    justify-content: center;
+    background-image: url("abc.png");
+    background-repeat: no-repeat;
+}
+
+footer {
+    display: fixed;
+    color: aliceblue;
+    background-color:#0A090C;
+    padding: 20px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    color: black;
+    transition: 0.4s;
+}
+input, textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border-color: aquamarine;
+}
+
+#saldo {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.botao-utilizar {
+    background: #07393C;
+    text-align: center;
+    color: white;
+}

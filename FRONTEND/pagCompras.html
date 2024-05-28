@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Bilhete urbano - escolha de ticket</title>
+
+    <script src="saldo.js"></script>
+
+</head>
+<body>
+    <div class="titulo">
+        <h1>BILHETE URBANO DE CAMPINAS</h1>
+    </div>
+
+    <div class="nav">
+        <br><p>Compra / Recarga</p>
+    </div>
+
+    <main>
+        <div class="sobre">
+            <h2>BILHETE UNICO</h2><br><br>
+            <p>Te dará direito de utilizar o bilhete para transporte apenas uma vez. </p><br><br>
+            <p><strong>R$</strong> 6,00.</p> <br>
+                <button id = "compra" value = "1" onclick="RecargaBilhete(0.0277778)">Comprar</button>
+
+        </div>
+        <div class="sobre">
+            <h2>BILHETE DUPLO</h2><br><br>
+            <p>Te dará direito de utilizar o bilhete para transporte duas vezes. </p><br><br>
+            <p><strong>R$</strong> 10,00.</p> <br>
+                <button id = "compra" value="2" onclick="RecargaBilhete(0,0555556)">Comprar</button>
+        </div>
+        <div class="sobre">
+            <h3>BILHETE SEMANAL</h3><br><br>
+            <p>Te dará direito de utilizar o transporte por um período de 7 dias. </p><br><br>
+             <p><strong>R$</strong> 25,00.</p><br>
+                <button id = "compra" value = "7" onclick="RecargaBilhete(7)">Comprar</button>
+        </div>
+        <div class="sobre">
+            <h2>BILHETE MENSAL</h2><br><br>
+            <p>Te dará direito de utilizar o transporte por um período de 30 dias. </p><br><br>
+            <p><strong>R$</strong> 80,00.</p> <br>
+                <button id = "compra" value ="30" onclick="RecargaBilhete(30)">Comprar</button>
+        </div>
+    </main>
+    <div class="botao-utilizar">
+        <form action=""> <br>
+            <p id="compra-msg"></p>
+            <button type="submit" formaction="pagInicial.html">Voltar</button>
+            <button type="submit" formaction="pagUso.html">Utilizar</button><br><br>
+        </form>
+    </div>
+
+
+    <footer>
+            <h3>Entre em contato:</h3>
+            <p>(19) 98888-8888 </p>
+            <p>(19) 97777-7777 </p> <br>
+
+            <h3>Métodos de pagamento</h3>
+            <p>Pix, crédito e débito.</p> <br>
+        </div>
+    </footer>
+</body>
+<script src="../BACKEND/scriptIntegracao.js"></script>
+</html>
