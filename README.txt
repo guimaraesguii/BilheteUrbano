@@ -1,4 +1,4 @@
-Projeto acadêmico para os alunos do curso de sistemas de informação PUCCAMP
+Projeto acadêmico desenvolvido em 2022 para os alunos do curso de sistemas de informação PUCCAMP
 
 Para utilizar o site, é necessário possuir o node e oracledb instalados na máquina, além da instalação do cors e o instant 
 instantclient, no arquivo inicializa.bar na pasta backend, você deve preencher o comando path com o caminho de instalação do node e do instantclient.
